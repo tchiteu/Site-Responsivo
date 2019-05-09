@@ -1,0 +1,87 @@
+.cabecalho {
+  width: 100%;
+}
+
+.rodape {
+  padding: 1% 1%;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(195, 241, 86, 0.8);
+  color: black;
+  font-family: 'Staatliches', cursive;
+  font-size: 16px;
+  text-align: center;
+}
+
+.logo {
+  position: absolute;
+  width: 5%;
+}
+
+.cabecalho a {
+  position: relative;
+  top: 0%;
+  float: right;
+  color: darkslategray;
+  text-decoration: none;
+  padding: 1% 10%;
+  font-size: 20px;
+  font-family: 'Staatliches', cursive;
+}
+
+.cabecalho a:hover {
+  border-bottom: rgb(195, 241, 86) solid 4px;
+}
+
+.ativo {
+  border-bottom: rgb(195, 241, 86) solid 4px;
+}
+
+/*IPHONE*/
+@media only screen and (max-width : 600px){
+  .cabecalho a{
+    padding: 1% 8%;
+    font-size: 19px;
+  }
+
+  .logo{
+    width: 10%;
+    left: 2%;
+  }
+
+  .rodape{
+    display: none;
+  }
+}
+
+/*IPAD*/ 
+@media only screen and (min-width : 600px) and (max-width : 830px){
+  .cabecalho a{
+    padding: 1% 10%;
+    font-size: 22px;
+  }
+  
+  .logo{
+    width: 8%;
+    left: 3%;
+  }  
+
+  .rodape{
+    display: none;
+  }
+
+}
+
+/*DESK*/
+@media only screen and (min-width: 1000px){
+  .cabecalho a{
+    padding: 1% 13%;
+    font-size: 17px;
+  }
+
+  .logo{ 
+    left: 4%;
+  }
+}

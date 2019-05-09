@@ -1,2 +1,2 @@
-# Site-Responsivo
+# Site Responsivo
 Exemplo de site responsivo.
